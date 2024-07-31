@@ -1,0 +1,10 @@
+.parent {
+  & .child {
+    @apply text-blue-500;
+
+    &:not([href]) {
+      @apply text-red-500;
+    }
+  }
+}
+
